@@ -27,7 +27,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          BASE_URL: "ePlant/"
+          BASE_URL: "https://yukthiw.github.io/ePlant/"
       - run: mv dist _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
