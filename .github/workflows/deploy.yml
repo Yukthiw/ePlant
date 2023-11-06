@@ -2,7 +2,8 @@ name: Deploy
 on:
   push:
     branches:
-      - test-deployment-again
+      - cell-efp
+      - main
       - staging
 
 permissions:
