@@ -4,6 +4,7 @@ on:
     branches:
       - cell-efp
       - main
+      - yukthiw/staging
       - staging
 
 permissions:
