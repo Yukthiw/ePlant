@@ -165,7 +165,7 @@ export default class EFP implements View<EFPData, EFPState, EFPAction> {
     return out
   }
   component(props: ViewProps<EFPData, EFPState, EFPAction>): JSX.Element {
-    const { view, _loading } = useEFPSVG(
+    const { view } = useEFPSVG(
       {
         svgURL: this.svgURL,
         xmlURL: this.xmlURL,
